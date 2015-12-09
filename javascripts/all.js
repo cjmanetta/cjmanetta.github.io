@@ -10369,3 +10369,11 @@ g.cache.direction},elementPosition:function(){var e=g.cache.element,t=g.get.scre
 
 
 
+$('.ui.sticky')
+  .sticky({
+    context: '.context',
+    pushing: true,
+    offset       : 50,
+    bottomOffset : 50,
+  })
+;

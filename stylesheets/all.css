@@ -7,6 +7,7 @@
  * Corrects `block` display not defined in IE 8/9.
  */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin");
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 /* line 12, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
 article,
 aside,
@@ -32722,10 +32723,80 @@ html.ios body {
 /*******************************
          Site Overrides
 *******************************/
-/* line 7, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.scss */
+/* line 12, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 body {
-  background: #d4d4d4 url("../images/background.png"); }
+  background: url("/images/background.png") center/100%; }
 
-/* line 11, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.scss */
-.container {
-  width: 95%; }
+/* line 16, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+.ui.segment {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+/* line 22, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+.ui.menu .item {
+  font-family: "Amatic SC";
+  font-size: 2em;
+  color: #290823;
+  font-weight: bold;
+  padding: 0px 20px 4px 20px !important; }
+
+/* line 31, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+.ui.text.container {
+  max-width: 50%; }
+
+/* line 35, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+.ui.cards > .card {
+  background: none;
+  border-width: 2px; }
+
+/* line 39, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+.ui.secondary.pointing.menu .active.item {
+  border-image: url("/images/line.svg") 0 0 10 0 repeat;
+  border-image-width: 12px; }
+
+/* line 44, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+.ui.secondary.pointing.menu {
+  border: none; }
+
+/* line 48, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+h1, h3 {
+  font-family: "Amatic SC"; }
+
+/* line 62, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+h3 {
+  font-weight: 700;
+  font-size: 2em;
+  color: #05756f;
+  letter-spacing: 0.75px;
+  margin-top: -8px; }
+
+/* line 70, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+h1 {
+  font-size: 3em;
+  color: #290823;
+  letter-spacing: 1px; }
+
+/* line 76, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+section {
+  margin-bottom: 50px; }
+
+/* line 80, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+.ui.vertical.stripe.segment.inverted {
+  background-image: url("/images/background.png"), linear-gradient(to bottom right, #0f7988, #c5e2bb);
+  opacity: 0.85; }
+
+/* line 85, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+.headshot {
+  border: 20px solid #dd6126; }
+
+/* line 90, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+i[class*="fa-"] {
+  color: #05756f; }
+
+/* line 95, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+footer i[class*="fa-"] {
+  font-size: 200%; }
+
+/* line 101, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+a:hover, a:active, i[class*="fa-"]:hover, i[class*="fa-"]:active {
+  color: #dd6126; }

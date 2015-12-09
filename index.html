@@ -7,43 +7,92 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Welcome to Middleman</title>
+    <title>Charlotte Manetta</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
     <link href="/stylesheets/normalize.css" rel="stylesheet" /><link href="/stylesheets/all.css" rel="stylesheet" />
   </head>
 
   <body class="index">
-    <nav class="ui pointing menu">
-          <a class="item active" href="index.html">about me</a>
-          <a class="item" href="resume.html">resume</a>
-          <a class="item" href="projects.html">projects</a>
+    <main class="container">
+<nav class="ui secondary pointing menu">
+  <div class="right menu">
+          <a class="item nav-link" href="#about">about me</a>
+          <a class="item nav-link" href="#projects">projects</a>
+          <a class="item nav-link" href="#resume">resume</a>
+  </div>
 </nav>
-<div class="ui two column vertically divided centered grid container">
-  <section class="row">
-    <article class="column">
-      <aside class="ui card">
-      <img class="ui image" src="images/headshot.png" alt="Charlotte Manetta">
-      <div class="content">
+<div class="ui left rail">
+  <div class="ui segment">
+  <a href="https://github.com/cjmanetta"><i class="fa fa-github"></i>
+  <a href="https://www.linkedin.com/in/charlottemanetta"><i class="fa fa-linkedin"></i></a>
+</div>
+</div>
+
+  <section class="ui vertical masthead center aligned">
+      <img class="ui circular centered image headshot medium" src="/images/headshot.png" alt="Charlotte Manetta">
+      <article class="ui text center aligned container">
         <h1 class="header">CHARLOTTE MANETTA</h1>
+<h3>DEVELOPER | DESIGNER | SOCCER COACH</h3>
+<p>I am a full stack web developer and graphic designer. I build applications that are both functional and beautiful. I have five years of experience working at all levels of a small growing company – I started in customer service and became lead graphic designer, IT manager and advisor to the CEO. I have been involved in all aspects of the collaborative design process from idea generation to production.</p>
+
+
+
+      </article>
+  </section>
+  <section class="ui vertical inverted stripe segment projects">
+    <section class="ui cards centered">
+    <div class="card">
+      <div class="image">
+        <img src="images/footie.png">
+      </div>
+      <div class="content">
+        <div class="header">footie</div>
+        <div class="meta">
+          <div class="ui label mini">develop</div>
+        </div>
         <div class="description">
-          <p>DEVELOPER | DESIGNER | SOCCER COACH</p>
+          footie is a points tracking application built in Rails and React for managing contests or player progress over the course of a sports season. I developed it as a project for Dev Bootcamp during phases 2 and 3.
         </div>
       </div>
-    </aside>
-    </article>
-    <article class="column">
-      <p>I am a graphic designer and aspiring web developer located in the bay area. I am currently attending Dev Bootcamp and I expect to graduate in August 2015 with all of the skills necessary to become a full stack web developer.</p>
-      <p>I have a passion for beautiful and functional graphic design and five years of experience working in design, IT and customer service departments of a small company. I have been involved in every aspect of the design process from idea generation through to production and implementation. I am hoping to use my background in graphic design to offer a unique perspective in the world of web development.</p>
-    </article>
+      <div class="extra content">
+        <span class="right floated">Production Timeline: 3 weeks</span>
+        <span>
+          <a href="https://github.com/cjmanetta/footie"><i class="fa fa-code"></i></a>
+        </span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img src="images/smarttext.png">
+      </div>
+      <div class="content">
+        <div class="header">SmartText</div>
+        <div class="meta">
+          <div class="ui label mini">develop</div>
+        </div>
+        <div class="description">
+          We developed an application that allows teachers to see students highlight supporting evidence for reading comprehension questions directly in the text on their screens.
+        </div>
+      </div>
+      <div class="extra content">
+        <span class="right floated">Production Timeline: 7 days</span>
+        <span>
+          <a href="https://github.com/amjacobowitz/SmartText"><i class="fa fa-code"></i></a>
+        </span>
+      </div>
+    </div>
+</section>
+
   </section>
-  <footer class="row">
+  <footer class="ui vertical footer segment">
   <div class="ui horizontal list">
     <div class="item"><a href="https://github.com/cjmanetta"><i class="fa fa-github"></i></div>
     <div class="item"><a href="https://www.linkedin.com/in/charlottemanetta"><i class="fa fa-linkedin"></i></a></div>
   </div>
 </footer>
-</div>
+</main>
     <script src="/javascripts/all.js"></script>
   </body>
 </html>
