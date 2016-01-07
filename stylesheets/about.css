@@ -1,0 +1,32 @@
+/* line 11, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+.blurb {
+  width: 450px;
+  margin-top: 100px; }
+  /* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+  .blurb p, .blurb h3 {
+    margin-top: 4px; }
+  /* line 17, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+  .blurb p {
+    text-align: left; }
+  /* line 20, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+  .blurb a {
+    font-size: 1.5em; }
+
+/* line 25, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+.headshot {
+  float: right;
+  border: 10px solid #fd513b;
+  margin-left: 150px; }
+
+@media only screen and (max-width: 723px) {
+  /* line 32, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+  .headshot {
+    margin: 0px auto;
+    float: none; }
+
+  /* line 36, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+  .blurb {
+    margin: 0px auto; }
+    /* line 38, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+    .blurb p {
+      text-align: center; } }

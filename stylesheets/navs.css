@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1100px) {
+  /* line 9, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+  nav.social {
+    display: none; } }
+/* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+nav li {
+  list-style-type: none; }
+
+/* line 18, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+nav {
+  float: right;
+  margin-bottom: 4em; }
+  /* line 21, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+  nav li {
+    font-family: "Amatic SC";
+    font-size: 2em;
+    color: #290823;
+    font-weight: bold;
+    padding: 0px 20px 4px 20px;
+    float: left; }
+
+/* line 31, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+nav.social {
+  position: fixed;
+  top: 25%;
+  left: -40px; }
+  /* line 35, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+  nav.social li {
+    margin-bottom: 2px;
+    float: none; }
+    /* line 38, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+    nav.social li i {
+      font-size: 1.25em; }
