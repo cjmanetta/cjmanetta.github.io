@@ -32816,8 +32816,12 @@ nav + section {
   /* line 46, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
   .bground {
     height: 1325px;
-    top: -1325px; } }
-/* line 52, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+    top: -1325px; }
+
+  /* line 50, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+  body {
+    height: 2150px; } }
+/* line 55, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 .header {
   font-family: "Amatic SC";
   color: #290823;
@@ -32825,37 +32829,37 @@ nav + section {
   letter-spacing: 1px;
   margin-bottom: 20px; }
 
-/* line 60, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 63, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 .ui.stackable.grid {
   margin-top: 4em;
   margin-bottom: 4em; }
 
-/* line 65, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 68, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 .row {
   margin-top: 0.5em;
   max-width: 1280px; }
 
-/* line 71, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 74, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 a {
   color: #05756f; }
 
-/* line 75, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 78, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 .ui.secondary.vertical.pointing.menu {
   margin-top: 142px; }
 
-/* line 78, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 81, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 .ui.image.small {
   width: 260px; }
 
-/* line 83, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 86, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 .ui.image.medium {
   width: 400px; }
 
-/* line 92, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 95, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 h1, h3 {
   font-family: "Amatic SC"; }
 
-/* line 96, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 99, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 h3 {
   font-weight: 700;
   font-size: 2em;
@@ -32863,25 +32867,25 @@ h3 {
   letter-spacing: 1px;
   margin-top: -8px; }
 
-/* line 104, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 107, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 h1 {
   font-size: 2em;
   color: #290823;
   letter-spacing: 1px; }
 
-/* line 110, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 113, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 section {
   margin-bottom: 4em;
   margin-top: 2em; }
 
-/* line 116, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 119, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 i[class*="fa-"] {
   color: #05756f; }
 
-/* line 121, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 124, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 footer i[class*="fa-"] {
   font-size: 200%; }
 
-/* line 127, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
+/* line 130, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
 a:hover, a:active, i[class*="fa-"]:hover, i[class*="fa-"]:active {
   color: #fd513b; }
