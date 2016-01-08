@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -7,9 +9,7 @@
  * Corrects `block` display not defined in IE 8/9.
  */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin");
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
-/* line 12, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 12, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 article,
 aside,
 details,
@@ -26,7 +26,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 8/9.
  */
-/* line 30, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 30, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 audio,
 canvas,
 video {
@@ -36,7 +36,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 41, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 41, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -44,7 +44,7 @@ audio:not([controls]) {
 /*
  * Addresses styling for `hidden` attribute not present in IE 8/9.
  */
-/* line 50, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 50, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 [hidden] {
   display: none; }
 
@@ -56,7 +56,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 64, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 64, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -68,7 +68,7 @@ html {
 /*
  * Removes default margin.
  */
-/* line 74, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 74, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 body {
   margin: 0; }
 
@@ -78,14 +78,14 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 86, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 86, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 a:focus {
   outline: thin dotted; }
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 94, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -97,21 +97,21 @@ a:hover {
  * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
  * Safari 5, and Chrome.
  */
-/* line 108, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 108, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 h1 {
   font-size: 2em; }
 
 /*
  * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 116, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 116, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /*
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 124, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 124, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 b,
 strong {
   font-weight: bold; }
@@ -119,14 +119,14 @@ strong {
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 133, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 133, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 dfn {
   font-style: italic; }
 
 /*
  * Addresses styling not present in IE 8/9.
  */
-/* line 141, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 141, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -134,7 +134,7 @@ mark {
 /*
  * Corrects font family set oddly in Safari 5 and Chrome.
  */
-/* line 151, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 151, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 code,
 kbd,
 pre,
@@ -145,7 +145,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 163, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 163, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -154,21 +154,21 @@ pre {
 /*
  * Sets consistent quote types.
  */
-/* line 173, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 173, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 181, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 181, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 small {
   font-size: 80%; }
 
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 189, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 189, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 sub,
 sup {
   font-size: 75%;
@@ -176,11 +176,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 197, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 197, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 sup {
   top: -0.5em; }
 
-/* line 201, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 201, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 sub {
   bottom: -0.25em; }
 
@@ -190,14 +190,14 @@ sub {
 /*
  * Removes border when inside `a` element in IE 8/9.
  */
-/* line 213, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 213, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 img {
   border: 0; }
 
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 221, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 221, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -207,7 +207,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 8/9 and Safari 5.
  */
-/* line 233, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 233, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 figure {
   margin: 0; }
 
@@ -217,7 +217,7 @@ figure {
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 245, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 245, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -227,7 +227,7 @@ fieldset {
  * 1. Corrects color not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 256, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 256, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 legend {
   border: 0;
   /* 1 */
@@ -239,7 +239,7 @@ legend {
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
  */
-/* line 267, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 267, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 button,
 input,
 select,
@@ -255,7 +255,7 @@ textarea {
  * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 281, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 281, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 button,
 input {
   line-height: normal; }
@@ -267,7 +267,7 @@ input {
  * 3. Improves usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 294, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 294, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -280,7 +280,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 306, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 306, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 button[disabled],
 input[disabled] {
   cursor: default; }
@@ -289,7 +289,7 @@ input[disabled] {
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
  */
-/* line 316, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 316, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -302,7 +302,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 328, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 328, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -315,7 +315,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 340, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 340, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -323,7 +323,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 4+.
  */
-/* line 349, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 349, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -333,7 +333,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 360, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 360, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -346,7 +346,7 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 373, /Users/charlotte/cjmanetta.github.io/source/stylesheets/normalize.css */
+/* line 373, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_normalize.css.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -32724,40 +32724,124 @@ html.ios body {
 /*******************************
          Site Overrides
 *******************************/
-/* line 9, /Users/charlotte/cjmanetta.github.io/source/stylesheets/projects.css.scss */
+/* line 1, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+body {
+  background: url("/images/whitesand.png");
+  height: 1185px; }
+
+/* line 6, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+html {
+  background: linear-gradient(to bottom right, #0f7998 0%, #c5e2bb 90%, #f9f2cf 100%) no-repeat center center fixed; }
+
+/*******************************
+            structure
+*******************************/
+/* line 16, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+nav + section {
+  clear: both; }
+
+@media only screen and (max-width: 723px) {
+  /* line 23, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+  body {
+    height: 2250px; } }
+/* line 26, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+.ui.stackable.grid {
+  margin-top: 4em;
+  margin-bottom: 4em; }
+
+/* line 31, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+section {
+  margin-bottom: 4em;
+  margin-top: 2em; }
+
+/* line 36, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+.row {
+  margin-top: 0.5em;
+  max-width: 1280px; }
+
+/*******************************
+            imgs
+*******************************/
+/* line 45, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+.ui.image.small {
+  width: 260px; }
+
+/* line 47, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+.ui.image.medium {
+  width: 400px; }
+
+/*******************************
+          typography
+*******************************/
+/* line 53, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+h1, h3 {
+  font-family: "Amatic SC";
+  font-size: 2em; }
+
+/* line 58, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+h3 {
+  font-weight: 700;
+  color: #05756f;
+  letter-spacing: 2px; }
+
+/* line 64, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+h1 {
+  color: #290823;
+  letter-spacing: 1px; }
+
+/* line 70, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+i[class*="fa-"] {
+  color: #05756f; }
+
+/* line 75, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+footer i[class*="fa-"] {
+  font-size: 200%; }
+
+/*******************************
+          links
+*******************************/
+/* line 84, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+a {
+  color: #05756f; }
+
+/* line 86, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+a:hover, a:active, i[class*="fa-"]:hover, i[class*="fa-"]:active {
+  color: #fd513b; }
+
+/* line 2, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
 .project img {
   border-radius: 2px; }
-/* line 13, /Users/charlotte/cjmanetta.github.io/source/stylesheets/projects.css.scss */
+/* line 6, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
 .project .info {
   text-align: left;
   width: 260px;
   margin: 0.5em auto; }
-  /* line 18, /Users/charlotte/cjmanetta.github.io/source/stylesheets/projects.css.scss */
+  /* line 11, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
   .project .info p {
     padding: 2px; }
-  /* line 22, /Users/charlotte/cjmanetta.github.io/source/stylesheets/projects.css.scss */
+  /* line 15, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
   .project .info .extra {
     float: right;
     color: gray;
     font-size: 0.85em; }
-/* line 30, /Users/charlotte/cjmanetta.github.io/source/stylesheets/projects.css.scss */
+/* line 23, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
 .project .tags .ui.label {
   background-color: #05756f;
   color: white; }
 
 @media only screen and (max-width: 1100px) {
-  /* line 9, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+  /* line 2, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
   nav.social {
     display: none; } }
-/* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+/* line 7, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
 nav li {
   list-style-type: none; }
 
-/* line 18, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+/* line 11, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
 nav {
   float: right;
   margin-bottom: 4em; }
-  /* line 21, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+  /* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
   nav li {
     font-family: "Amatic SC";
     font-size: 2em;
@@ -32766,126 +32850,50 @@ nav {
     padding: 0px 20px 4px 20px;
     float: left; }
 
-/* line 31, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+/* line 24, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
 nav.social {
   position: fixed;
   top: 25%;
   left: -40px; }
-  /* line 35, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+  /* line 28, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
   nav.social li {
     margin-bottom: 2px;
     float: none; }
-    /* line 38, /Users/charlotte/cjmanetta.github.io/source/stylesheets/navs.css.scss */
+    /* line 31, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
     nav.social li i {
       font-size: 1.25em; }
 
-/* line 11, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+/* line 1, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+.headshot {
+  border: 10px solid #fd513b; }
+
+/* line 3, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
 .blurb {
-  width: 450px;
-  margin-top: 100px; }
-  /* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
-  .blurb p, .blurb h3 {
-    margin-top: 4px; }
-  /* line 17, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+  text-align: center;
+  max-width: 55%; }
+  /* line 6, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+  .blurb .tagline {
+    margin: 12px 0 20px 0; }
+  /* line 7, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
   .blurb p {
     text-align: left; }
-  /* line 20, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
+  /* line 10, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
   .blurb a {
     font-size: 1.5em; }
 
-/* line 25, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
-.headshot {
-  float: right;
-  border: 10px solid #fd513b;
-  margin-left: 150px; }
-
-/* line 22, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-body {
-  background: url("/images/whitesand.png");
-  height: 1185px; }
-
-/* line 28, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-html {
-  background: linear-gradient(to bottom right, #0f7988 0%, #c5e2bb 90%, #f9f2cf 100%) no-repeat center center fixed; }
-
-/* line 32, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-nav + section {
-  clear: both; }
-
 @media only screen and (max-width: 723px) {
-  /* line 46, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-  .bground {
-    height: 1325px;
-    top: -1325px; }
+  /* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+  .headshot {
+    margin: 0px auto;
+    float: none; }
 
-  /* line 50, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-  body {
-    height: 2150px; } }
-/* line 55, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-.header {
-  font-family: "Amatic SC";
-  color: #290823;
-  font-size: 3em;
-  letter-spacing: 1px;
-  margin-bottom: 20px; }
-
-/* line 63, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-.ui.stackable.grid {
-  margin-top: 4em;
-  margin-bottom: 4em; }
-
-/* line 68, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-.row {
-  margin-top: 0.5em;
-  max-width: 1280px; }
-
-/* line 74, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-a {
-  color: #05756f; }
-
-/* line 78, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-.ui.secondary.vertical.pointing.menu {
-  margin-top: 142px; }
-
-/* line 81, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-.ui.image.small {
-  width: 260px; }
-
-/* line 86, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-.ui.image.medium {
-  width: 400px; }
-
-/* line 95, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-h1, h3 {
-  font-family: "Amatic SC"; }
-
-/* line 99, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-h3 {
-  font-weight: 700;
-  font-size: 2em;
-  color: #05756f;
-  letter-spacing: 1px;
-  margin-top: -8px; }
-
-/* line 107, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-h1 {
-  font-size: 2em;
-  color: #290823;
-  letter-spacing: 1px; }
-
-/* line 113, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-section {
-  margin-bottom: 4em;
-  margin-top: 2em; }
-
-/* line 119, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-i[class*="fa-"] {
-  color: #05756f; }
-
-/* line 124, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-footer i[class*="fa-"] {
-  font-size: 200%; }
-
-/* line 130, /Users/charlotte/cjmanetta.github.io/source/stylesheets/all.css.scss */
-a:hover, a:active, i[class*="fa-"]:hover, i[class*="fa-"]:active {
-  color: #fd513b; }
+  /* line 18, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+  .blurb {
+    max-width: 75%;
+    margin: 0px auto; }
+    /* line 21, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+    .blurb p {
+      text-align: center; }
+    /* line 22, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+    .blurb a {
+      font-size: 1.25em; } }
