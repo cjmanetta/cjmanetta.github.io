@@ -17,16 +17,3 @@
   float: right;
   border: 10px solid #fd513b;
   margin-left: 150px; }
-
-@media only screen and (max-width: 723px) {
-  /* line 32, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
-  .headshot {
-    margin: 0px auto;
-    float: none; }
-
-  /* line 36, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
-  .blurb {
-    margin: 0px auto; }
-    /* line 38, /Users/charlotte/cjmanetta.github.io/source/stylesheets/about.css.scss */
-    .blurb p {
-      text-align: center; } }
