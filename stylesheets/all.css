@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css);
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -32727,7 +32727,7 @@ html.ios body {
 /* line 1, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 body {
   background: url("/images/whitesand.png");
-  height: 1185px; }
+  height: 1180px; }
 
 /* line 6, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 html {
@@ -32737,24 +32737,24 @@ html {
             structure
 *******************************/
 /* line 16, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-nav + section {
+nav + article {
   clear: both; }
 
 @media only screen and (max-width: 723px) {
-  /* line 23, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+  /* line 19, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
   body {
-    height: 2250px; } }
-/* line 26, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+    height: 2280px; } }
+/* line 22, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .ui.stackable.grid {
   margin-top: 4em;
   margin-bottom: 4em; }
 
-/* line 31, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-section {
+/* line 27, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+article {
   margin-bottom: 4em;
   margin-top: 2em; }
 
-/* line 36, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 32, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .row {
   margin-top: 0.5em;
   max-width: 1280px; }
@@ -32762,72 +32762,77 @@ section {
 /*******************************
             imgs
 *******************************/
-/* line 45, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 41, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .ui.image.small {
   width: 260px; }
 
-/* line 47, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 43, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .ui.image.medium {
   width: 400px; }
 
 /*******************************
           typography
 *******************************/
-/* line 53, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 49, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 h1, h3 {
   font-family: "Amatic SC";
-  font-size: 2em; }
+  font-weight: 700; }
 
-/* line 58, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-h3 {
-  font-weight: 700;
-  color: #05756f;
-  letter-spacing: 2px; }
-
-/* line 64, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 54, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 h1 {
-  color: #290823;
-  letter-spacing: 1px; }
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 2.5em;
+  letter-spacing: 0.5px; }
 
-/* line 70, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-i[class*="fa-"] {
+/* line 60, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+h3 {
+  font-size: 2em;
   color: #05756f; }
 
-/* line 75, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-footer i[class*="fa-"] {
-  font-size: 200%; }
+/* line 65, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+i {
+  color: #05756f; }
 
 /*******************************
           links
 *******************************/
-/* line 84, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 71, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 a {
   color: #05756f; }
 
-/* line 86, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-a:hover, a:active, i[class*="fa-"]:hover, i[class*="fa-"]:active {
+/* line 73, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+a:hover, a:active, i:hover, i:active {
   color: #fd513b; }
 
-/* line 2, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
-.project img {
-  border-radius: 2px; }
-/* line 6, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
-.project .info {
-  text-align: left;
-  width: 260px;
-  margin: 0.5em auto; }
-  /* line 11, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
-  .project .info p {
-    padding: 2px; }
-  /* line 15, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
-  .project .info .extra {
-    float: right;
-    color: gray;
-    font-size: 0.85em; }
-/* line 23, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
-.project .tags .ui.label {
-  background-color: #05756f;
-  color: white; }
+/* line 1, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
+.project {
+  background: rgba(255, 255, 255, 0.25) center center fixed;
+  padding-top: 3px;
+  padding-bottom: 3px; }
+  /* line 7, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
+  .project img {
+    border-radius: 3px;
+    box-shadow: -2px 2px 15px rgba(124, 124, 125, 0.39); }
+  /* line 13, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
+  .project .tags .ui.label {
+    background-color: #05756f;
+    color: white; }
+  /* line 19, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
+  .project .info {
+    text-align: left;
+    width: 260px;
+    margin: 0.5em auto; }
+    /* line 24, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
+    .project .info p {
+      padding: 2px; }
+    /* line 28, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
+    .project .info .extra {
+      float: right;
+      color: gray;
+      font-size: 0.85em; }
+    /* line 34, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
+    .project .info i {
+      word-spacing: 2px; }
 
 @media only screen and (max-width: 1100px) {
   /* line 2, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
