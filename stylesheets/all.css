@@ -32736,16 +32736,15 @@ nav + article {
   clear: both; }
 
 /* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-.ui.stackable.grid {
-  margin-top: 4em;
-  margin-bottom: 4em; }
+#about, #projects {
+  margin-top: 4em; }
 
-/* line 19, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 18, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 article {
   margin-bottom: 4em;
   margin-top: 2em; }
 
-/* line 24, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 23, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .row {
   margin-top: 0.5em;
   max-width: 1280px; }
@@ -32753,45 +32752,45 @@ article {
 /*******************************
             imgs
 *******************************/
-/* line 33, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 32, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .ui.image.small {
   width: 260px; }
 
-/* line 35, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 34, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .ui.image.medium {
   width: 400px; }
 
 /*******************************
           typography
 *******************************/
-/* line 41, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 40, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 h1, h3 {
   font-family: "Amatic SC";
   font-weight: 700; }
 
-/* line 46, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 45, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 h1 {
   color: rgba(255, 255, 255, 0.85);
   font-size: 2.5em;
   letter-spacing: 0.5px; }
 
-/* line 52, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 51, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 h3 {
   font-size: 2em;
   color: #05756f; }
 
-/* line 57, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 56, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 i {
   color: #05756f; }
 
 /*******************************
           links
 *******************************/
-/* line 63, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 62, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 a {
   color: #05756f; }
 
-/* line 65, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 64, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 a:hover, a:active, i:hover, i:active {
   color: #fd513b; }
 
@@ -32823,41 +32822,24 @@ a:hover, a:active, i:hover, i:active {
       font-size: 0.85em; }
     /* line 34, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_projects.css.scss */
     .project .info i {
-      word-spacing: 2px; }
+      font-size: 2em; }
 
-@media only screen and (max-width: 1100px) {
-  /* line 2, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
-  nav.social {
-    display: none; } }
-/* line 7, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
+/* line 8, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
 nav li {
   list-style-type: none; }
 
-/* line 11, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
+/* line 12, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
 nav {
   float: right;
   margin-bottom: 4em; }
-  /* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
+  /* line 15, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
   nav li {
     font-family: "Amatic SC";
     font-size: 2em;
     color: #290823;
     font-weight: bold;
-    padding: 0px 20px 4px 20px;
+    padding: 0px 10px 4px 20px;
     float: left; }
-
-/* line 24, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
-nav.social {
-  position: fixed;
-  top: 25%;
-  left: -40px; }
-  /* line 28, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
-  nav.social li {
-    margin-bottom: 2px;
-    float: none; }
-    /* line 31, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_navs.css.scss */
-    nav.social li i {
-      font-size: 1.25em; }
 
 /* line 1, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
 .headshot {
@@ -32873,23 +32855,26 @@ nav.social {
   /* line 7, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
   .blurb p {
     text-align: left; }
-  /* line 10, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+  /* line 8, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
   .blurb a {
     font-size: 1.5em; }
+  /* line 9, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+  .blurb .social {
+    font-size: 2em; }
 
 @media only screen and (max-width: 723px) {
-  /* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+  /* line 15, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
   .headshot {
     margin: 0px auto;
     float: none; }
 
-  /* line 18, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+  /* line 19, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
   .blurb {
     max-width: 75%;
     margin: 0px auto; }
-    /* line 21, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+    /* line 22, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
     .blurb p {
       text-align: center; }
-    /* line 22, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
+    /* line 23, /Users/charlotte/cjmanetta.github.io/source/stylesheets/modules/_about.css.scss */
     .blurb a {
       font-size: 1.25em; } }
