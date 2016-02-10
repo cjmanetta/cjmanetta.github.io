@@ -32726,35 +32726,26 @@ html.ios body {
 *******************************/
 /* line 1, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 body {
-  background: url("/images/whitesand.png");
-  height: 1180px; }
-
-/* line 6, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-html {
-  background: linear-gradient(to bottom right, #0f7998 0%, #c5e2bb 90%, #f9f2cf 100%) no-repeat center center fixed; }
+  background: url("/images/whitesand.png"), linear-gradient(to bottom right, #0f7998 0%, #c5e2bb 90%, #f9f2cf 100%) no-repeat center center fixed; }
 
 /*******************************
             structure
 *******************************/
-/* line 16, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 12, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 nav + article {
   clear: both; }
 
-@media only screen and (max-width: 723px) {
-  /* line 19, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
-  body {
-    height: 2280px; } }
-/* line 22, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 14, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .ui.stackable.grid {
   margin-top: 4em;
   margin-bottom: 4em; }
 
-/* line 27, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 19, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 article {
   margin-bottom: 4em;
   margin-top: 2em; }
 
-/* line 32, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 24, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .row {
   margin-top: 0.5em;
   max-width: 1280px; }
@@ -32762,45 +32753,45 @@ article {
 /*******************************
             imgs
 *******************************/
-/* line 41, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 33, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .ui.image.small {
   width: 260px; }
 
-/* line 43, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 35, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 .ui.image.medium {
   width: 400px; }
 
 /*******************************
           typography
 *******************************/
-/* line 49, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 41, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 h1, h3 {
   font-family: "Amatic SC";
   font-weight: 700; }
 
-/* line 54, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 46, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 h1 {
   color: rgba(255, 255, 255, 0.85);
   font-size: 2.5em;
   letter-spacing: 0.5px; }
 
-/* line 60, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 52, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 h3 {
   font-size: 2em;
   color: #05756f; }
 
-/* line 65, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 57, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 i {
   color: #05756f; }
 
 /*******************************
           links
 *******************************/
-/* line 71, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 63, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 a {
   color: #05756f; }
 
-/* line 73, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
+/* line 65, /Users/charlotte/cjmanetta.github.io/source/stylesheets/_base.css.scss */
 a:hover, a:active, i:hover, i:active {
   color: #fd513b; }
 
